@@ -5,7 +5,7 @@
 
 ## Version
 **1.0.0 (Early Preview)** <br>
-*⚠️ Various issues existed, not suitable for production environment!*
+*⚠️ Various issues existed, not suitable for the production environment!*
 
 ## Features
 - Drop Transition
@@ -48,11 +48,11 @@ struct ContentView: View {
 ## Known Issues
 **Major**
 - Gesture is **disabled** due to multiple bugs
-  - Dragging-left is not working due to offset; and
-  - Dragging-right works but failed the ```currentIndex```
+  - Dragging (from left to right) is not working due to offset; and
+  - Dragging (from right to left) works but fails the ```currentIndex```
 - Only compatible with iOS18+, like Apple Invites app
 - Only tested on iPhone 16 Pro/Pro Max (Resize problem on small devices)
-- Possible memory leakage when insert too many items into array
+- Possible memory leakage when inserting too many items into the array
 
 **Minor**
 - The auto-rotation+paging feels like a "Conveyor belt sushi 🍣", not so smooth.
