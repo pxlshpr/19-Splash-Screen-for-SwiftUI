@@ -61,7 +61,13 @@ struct ContentView: View {
 App Store Screenshots © 2025 Apple Inc.
 
 ## Reference
-https://developer.apple.com/documentation/swiftui/creating-visual-effects-with-swiftui
+[Creating visual effects with SwiftUI - Apple Developer](https://developer.apple.com/documentation/swiftui/creating-visual-effects-with-swiftui)
 
 ## Related Posts on X
-https://x.com/1998design/status/1888641485303878110
+https://x.com/1998design/status/1888641485303878110 <br>
+https://x.com/1998design/status/1888945523845140677
+
+## Combinations
+Use [SwiftNEWKit](https://github.com/1998code/SwiftNEWKit) together, 2X effective!
+<br><br>
+<img height=300 src="https://github.com/user-attachments/assets/cc88b31d-326f-4a43-9e6a-5f583fcf153b" />
