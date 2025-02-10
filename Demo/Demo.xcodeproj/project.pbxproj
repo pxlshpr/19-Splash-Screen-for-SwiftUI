@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A7F9F0E2D5A205C00A71529 /* SplashScreenKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3A7F9F0D2D5A205C00A71529 /* SplashScreenKit */; };
+		3A7F9F812D5A320E00A71529 /* SplashScreenKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3A7F9F802D5A320E00A71529 /* SplashScreenKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A7F9F812D5A320E00A71529 /* SplashScreenKit in Frameworks */,
 				3A7F9F0E2D5A205C00A71529 /* SplashScreenKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,6 +120,7 @@
 			name = Demo;
 			packageProductDependencies = (
 				3A7F9F0D2D5A205C00A71529 /* SplashScreenKit */,
+				3A7F9F802D5A320E00A71529 /* SplashScreenKit */,
 			);
 			productName = Demo;
 			productReference = 3A7F9EDF2D5A1FA200A71529 /* Demo.app */;
@@ -202,7 +205,7 @@
 			mainGroup = 3A7F9ED62D5A1FA200A71529;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				3A7F9F0C2D5A205C00A71529 /* XCLocalSwiftPackageReference "../../SplashScreenKit" */,
+				3A7F9F7F2D5A320E00A71529 /* XCLocalSwiftPackageReference "../../T19SC" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3A7F9EE02D5A1FA200A71529 /* Products */;
@@ -569,14 +572,18 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		3A7F9F0C2D5A205C00A71529 /* XCLocalSwiftPackageReference "../../SplashScreenKit" */ = {
+		3A7F9F7F2D5A320E00A71529 /* XCLocalSwiftPackageReference "../../T19SC" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../SplashScreenKit;
+			relativePath = ../../T19SC;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		3A7F9F0D2D5A205C00A71529 /* SplashScreenKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SplashScreenKit;
+		};
+		3A7F9F802D5A320E00A71529 /* SplashScreenKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SplashScreenKit;
 		};
