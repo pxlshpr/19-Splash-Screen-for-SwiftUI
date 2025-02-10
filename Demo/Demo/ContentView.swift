@@ -80,7 +80,7 @@ struct ContentView: View {
         cta: "Connect"
     ) {
         // Button Action
-        print("Hello, Final Cut Camera!")
+        print("Hello, Find My!")
     }
 }
 
@@ -100,6 +100,6 @@ struct ContentView: View {
         cta: "Start Writing"
     ) {
         // Button Action
-        print("Hello, Final Cut Camera!")
+        print("Hello, Journal!")
     }
 }
