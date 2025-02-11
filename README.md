@@ -14,6 +14,11 @@
 - Text Transition
 - Fade-in/out Transition/Animation
 
+## Beautiful Previews
+| ![Apple TV](https://github.com/user-attachments/assets/d1175ec1-8880-45e6-8591-993b6d063346) | ![1 Final Cut Camera](https://github.com/user-attachments/assets/2d8a7f5a-abfe-4107-9293-bee95c524edc) | ![1 Find My](https://github.com/user-attachments/assets/f7a3dee2-6378-4ecb-b8e2-8a154d20faf0) | ![1 Journal](https://github.com/user-attachments/assets/89061031-116a-4a5e-b75d-1614a293f23e) |
+| --- | --- | --- | --- |
+| Apple TV | Final Cut Camera | Find My | Journal |
+
 ## Environment / Tested on
 - 📲 iOS18+ required
 - Swift 6.0
@@ -21,8 +26,9 @@
 - Xcode 16.2 (16C5032a)
 
 ## How to use
-1. In Package Dependencies, add ```https://github.com/1998code/19-Splash-Screen-for-SwiftUI```
-2. ```import SplashScreenKit```
+0. Open Xcode and (create) a project
+1. In **Package Dependencies**, add ```https://github.com/1998code/19-Splash-Screen-for-SwiftUI```
+2. Then ```import SplashScreenKit``` on top
 3. Sample Code:
 ```swift
 struct ContentView: View {
@@ -40,10 +46,8 @@ struct ContentView: View {
 }
 ```
 
-## Beautiful Previews
-| ![Apple TV](https://github.com/user-attachments/assets/d1175ec1-8880-45e6-8591-993b6d063346) | ![1 Final Cut Camera](https://github.com/user-attachments/assets/2d8a7f5a-abfe-4107-9293-bee95c524edc) | ![1 Find My](https://github.com/user-attachments/assets/f7a3dee2-6378-4ecb-b8e2-8a154d20faf0) | ![1 Journal](https://github.com/user-attachments/assets/89061031-116a-4a5e-b75d-1614a293f23e) |
-| --- | --- | --- | --- |
-| Apple TV | Final Cut Camera | Find My | Journal |
+## Project Demo
+Path: Demo/Demo.xcodeproj
 
 ## Known Issues
 **Major**
