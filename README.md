@@ -47,7 +47,7 @@ struct ContentView: View {
 ```
 
 ## Project Demo
-Path: Demo/Demo.xcodeproj
+Path: [Demo/Demo.xcodeproj](https://github.com/1998code/19-Splash-Screen-for-SwiftUI/tree/main/Demo)
 
 ## Known Issues
 **Major**
