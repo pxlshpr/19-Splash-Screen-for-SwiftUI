@@ -116,6 +116,7 @@ public struct SplashScreen: View {
                     Text(caption)
                         .foregroundStyle(.secondary)
                         .multilineTextAlignment(.center)
+                        .fixedSize(horizontal: false, vertical: true)
                         .transition(TextTransition())
                     Button(action: ctaAction) {
                         Text(ctaText)
@@ -138,4 +139,20 @@ public struct SplashScreen: View {
             }
             .animation(.easeInOut(duration: 2))
         }
+}
+
+#Preview {
+    SplashScreen(
+        images: [
+            Photo("Hello"),
+            Photo("Hello"),
+            Photo("Hello"),
+            Photo("Hello"),
+        ],
+        title: "Title",
+        product: "Product",
+        caption: "Track your meals and reach your goals. A simple and intuitive way to monitor your nutrition journey.",
+        cta: "Get Started",
+        action: { }
+    )
 }
